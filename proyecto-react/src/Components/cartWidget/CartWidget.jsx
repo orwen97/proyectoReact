@@ -14,9 +14,3 @@ const CartWidget = () => {
 }
 
 export default CartWidget;
-
-
-// chunk-MCEUSTYS.js?v=143203e3:519 Warning: <cartWidget /> is using incorrect casing. Use PascalCase for React components, or lowercase for HTML elements.
-//     at cartWidget
-//     at div
-//     at App
