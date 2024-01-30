@@ -1,3 +1,13 @@
 .miNavBar {
     background-color: rgb(212, 167, 200);
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+}
+
+.me-auto {
+    margin-right: 0px !important;
+    align-items: center;
 }

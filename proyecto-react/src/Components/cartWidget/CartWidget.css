@@ -1,0 +1,8 @@
+.buttonCart {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 90rem;
+    background-color: rgb(82, 19, 79);
+    border: none;
+    box-shadow:  2px 2px 5px rgba(57, 41, 55, 0.49);
+}
