@@ -1,0 +1,67 @@
+.counterItem {
+    display: flex;
+    width: fit-content;
+    height: min-content;
+    border-style: solid;
+    border-width: 0.12rem;
+    border-radius: 0.2rem;
+    border-color: rgb(160, 160, 160);
+    background-color: rgb(255, 255, 255);
+    grid-area: counter;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.counterItem button {
+    border: none;
+    background-color: transparent;
+    color: rgb(106, 172, 252);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.counterItem h1 {
+    margin-top: 0;
+    margin-right: 0.8rem;
+    margin-bottom: 0;
+    margin-left: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+    align-self: center !important;
+}
+
+.containerCounter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "texto counter"
+    "add add";
+    width: 14rem;
+    height: 7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 2rem;
+    border-radius: 0.3rem;
+    background-color: rgb(245, 245, 245);
+}
+
+.containerCounter h1 {
+    font-size: 0.9rem;
+    grid-area: texto;
+    align-self: flex-end;
+}
+
+.addCart {
+    font-size: 0.8rem;
+    height: min-content;
+    grid-area: add;
+    align-self: center;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 0.2rem;
+    border-color: rgb(106, 172, 252);
+    background-color: rgb(228, 250, 255);
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba(169, 178, 191, 0.698);
+    
+    
+}

@@ -11,3 +11,9 @@
     margin-right: 0px !important;
     align-items: center;
 }
+
+.container {
+    max-width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

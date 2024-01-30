@@ -10,14 +10,14 @@ function NavBar() {
         <>
             <Navbar data-bs-theme="dark" className="miNavBar">
                 <Container>
-                    <Navbar.Brand href="#home"> <Logo/> </Navbar.Brand>
                     <Nav className="me-auto">
+                        <Navbar.Brand href="#home"> <Logo/> </Navbar.Brand>
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#features">Indumentaria</Nav.Link>
                         <Nav.Link href="#pricing">Accesorios</Nav.Link>
                         <Nav.Link href="#contact">Contacto</Nav.Link>
-                        <Nav.Link href="#cart"> <CartWidget/> </Nav.Link>
                     </Nav>
+                    <Nav.Link href="#cart"> <CartWidget/> </Nav.Link>
                 </Container>
             </Navbar>
         </>
